@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: news_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: news
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql:postgres_data
+  
+  redis:
+    image: redis:7-alpine
+    container_name: news_cache
+    ports:
+      - "6379:6379"
+    volumes:
+      - redia_data:/data
+
+volumes:
+  postgres_data:
+  redia_data:

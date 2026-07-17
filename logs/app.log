@@ -1,0 +1,2 @@
+time=2026-07-17T23:23:02.266+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:21" msg="✅ Config loaded successfully"
+time=2026-07-17T23:23:02.266+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:22" msg="🚀 News Aggregator 4 starting..."
