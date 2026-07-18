@@ -5,3 +5,8 @@ time=2026-07-18T17:41:06.843+05:00 level=INFO source="/home/kirill/go_projects/d
 time=2026-07-18T17:41:06.865+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:34" msg="✅ Connected to PostgreSQL!"
 time=2026-07-18T17:41:06.933+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:45" msg="✅ Database migrated!"
 time=2026-07-18T17:41:06.933+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:47" msg="🚀 News Aggregator 4 starting..."
+time=2026-07-18T18:42:43.404+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:26" msg="✅ Config loaded successfully"
+time=2026-07-18T18:42:43.404+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:27" msg="🚀 News Aggregator 4 starting..."
+time=2026-07-18T18:42:43.411+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:34" msg="✅ Connected to PostgreSQL!"
+time=2026-07-18T18:42:43.533+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:45" msg="✅ Database migrated!"
+time=2026-07-18T18:42:43.533+05:00 level=INFO source="/home/kirill/go_projects/deepseek/stage 4/news_aggregator_with_tg/cmd/api/main.go:47" msg="🚀 News Aggregator 4 starting..."
