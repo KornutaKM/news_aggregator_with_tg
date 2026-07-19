@@ -31,7 +31,7 @@ func (s *Service) Register(email, password string) (*User, error) {
 		return nil, fmt.Errorf("failed to hashed password: %w", err)
 	}
 
-	user := User{
+	user := &User{
 		Email:    email,
 		Password: string(hashedPass),
 	}
@@ -40,7 +40,7 @@ func (s *Service) Register(email, password string) (*User, error) {
 		return nil, fmt.Errorf("failed to create user: %w", err)
 	}
 
-	return &user, nil
+	return user, nil
 }
 
 func (s *Service) Login(email, password string) (*User, error) {

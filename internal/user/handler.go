@@ -17,8 +17,8 @@ type Handler struct {
 func NewHandler(service *Service, router *http.ServeMux, jwtService *auth.JWT) *Handler {
 	h := &Handler{service: service, jwtService: jwtService}
 
-	router.HandleFunc("/auth/register", h.Register())
-	router.HandleFunc("/auth/login", h.Login())
+	router.HandleFunc("POST /auth/register", h.Register())
+	router.HandleFunc("POST /auth/login", h.Login())
 
 	return h
 }
